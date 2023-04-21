@@ -1,2 +1,2 @@
-#!/ban/bash
+#!/bit/bash
 gcc $CFILE -o cisfun
