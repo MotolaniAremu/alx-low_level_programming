@@ -8,14 +8,12 @@
  */
 int main(void)
 {
-	int  i;
+	char la;
 
-	for (i = 97; i < 123; i++)
+	for (la = 'a'; la <= 'z'; la++)
 	{
-		if (i != 101 && i = 113)
-		{
-			putchar(i);
-		}
+		if (la != 'e' && la != 'q')
+			putchar(la);
 	}
 	putchar('\n');
 	return (0);
